@@ -14,4 +14,12 @@ export const ButtonContainer = styled.button`
         opacity: 0.6;
         cursor:pointer;
     }
+
+    &:disabled {
+        background-color: #D3D3D3;
+        color: #A9A9A9;
+        border: 1px solid #A9A9A9;
+        cursor: not-allowed;
+        opacity: 0.7;
+    }
 `
